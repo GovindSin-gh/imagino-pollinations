@@ -43,7 +43,7 @@ Pollinations AI returns an AI-generated image instantly. No signup, no key, no A
 
 ## 📸 Screenshots
 
-> *(Optional: add screenshots of the UI with generated images)*
+> ![Example](example.png)
 
 ---
 
