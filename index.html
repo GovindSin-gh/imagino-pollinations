@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagino</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="contentArea">
+        <h1>Please describe your image.</h1>
+        <div class="center-items">
+            <textarea name="promptInput" id="promptInput" placeholder="Enter your description here."
+                type="text"></textarea>
+        </div>
+        <div class="center-items">
+            <button id="generateBtn">Generate image</button>
+        </div>
+        <div class="center-items">
+
+            <div class="resultDiv">
+                <div class="loader"></div>
+
+            </div>
+        </div>
+        <div class="center-items">
+            <button id="downloadBtn">Download</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

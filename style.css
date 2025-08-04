@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a8dadc;
+}
+
+#generateBtn {
+    display: block;
+    background-color: #457b9d;
+    border: none;
+    color: #f1faee;
+    height: 5vh;
+    width: 50%;
+    font-size: 3vh;
+}
+
+#contentArea {
+    height: 70vh;
+    width: 70vh;
+    background-color: #1d3557;
+    color: #e63946;
+    border-radius: 12.5%;
+    padding: 5vh;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+#promptInput{
+    width:80%;
+    height: 10vh;
+    outline: none;
+    border: none;
+}
+.center-items{
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
+.resultDiv{
+    height: 35vh;
+    width: 35vh;
+    background-color: darkgreen;
+    visibility: hidden;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#downloadBtn {
+    background-color: maroon;
+    border: none;
+    color: goldenrod;
+    height: 5vh;
+    width: 50%;
+    font-size: 3vh;
+    visibility: hidden;
+}
+
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey background ring */
+  border-top: 8px solid #3498db; /* Blue spinning part */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+  margin: auto; /* Center horizontally */
+  visibility: hidden;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
